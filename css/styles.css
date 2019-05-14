@@ -1,0 +1,31 @@
+.navbar ul li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar ul li a{
+  color: white;
+  text-shadow: 2px 2px 5px rgb(194, 208, 232);
+}
+.navbar ul li:hover{
+  background-color: rgba(36, 40, 48, 0.5);
+  text-decoration: none;
+}
+.navbar ul li a:hover{
+  /* text-decoration: none; */
+}
+.navbar ul{
+  margin-top: 5px;
+  padding-right: 17px;
+  margin-left: 50%;
+  position: fixed;
+  text-decoration: none;
+}
+.navbar{
+  font-family: 'Crimson Text', serif;
+  font-size: 17px;
+  background-color: silver;
+}
+.navbar img{
+  margin-top: -6px;
+}
