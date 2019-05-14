@@ -54,7 +54,7 @@ slide:nth-child(5){
   background-position: center; 
 }
 
-/* slide p{
+slide p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 70px;
   text-align: center;
@@ -64,11 +64,11 @@ slide:nth-child(5){
   color: #fff;
 }
 
-@keyframes slide {
+/* @keyframes slide {
   0% {left:100%; width:100%;}
   5% {left:0%;}
   25% {left:0%;}
   30% {left:-100%; width:100%;}
   30.0001%{left:-100%; width:0%;}
   100%{ left:100%; width:0%;}
-} */
+} */ */
