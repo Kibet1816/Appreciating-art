@@ -21,7 +21,7 @@ slide{
  animation: slide 12s infinite;
  overflow: hidden;
 }
-/* 
+
 slide:nth-child(1){
   left: 0%;
   animation-delay: -1s;
@@ -52,7 +52,7 @@ slide:nth-child(5){
   background-image: url("../images/event5.jpg");
   background-size: cover;
   background-position: center; 
-} */
+}
 
 /* slide p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
