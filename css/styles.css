@@ -3,11 +3,11 @@
   transition: 0.3s;
   width: 22%;
   margin-left: 2%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 .container {
   padding: 2px 16px;
 }
-h4,p{
+h1,h4,p{
   text-align: center;
 }
