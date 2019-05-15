@@ -5,17 +5,17 @@
 }
 .navbar ul li a{
   color: white;
-  text-shadow: 2px 2px 5px rgb(194, 208, 232);
+  /* text-shadow: 2px 2px 5px rgb(194, 208, 232); */
 }
 .navbar ul li:hover{
   background-color: rgba(36, 40, 48, 0.5);
   text-decoration: none;
 }
 .navbar ul{
-  margin-top: 1px;
+  margin-top: -50px;
   padding-right: 17px;
   margin-left: 50%;
-  position: fixed;
+  /* position: fixed; */
   text-decoration: none;
 }
 .navbar{
@@ -68,4 +68,76 @@
 }
 body{
   text-align: center;
+  scroll-behavior: smooth;
+}
+#footer{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Crimson Text', serif;
+  padding-left: 80px;
+  background-color: #070000;
+  color: white;
+}
+#footer div{
+  width: 22%;
+  height: 18%;
+}
+.us{
+  font-size: 14px;
+  left:20px;
+  text-align: left;
+}
+.us #log,.us #cons{
+  margin-left: 70px;
+  text-shadow: 2px 2px 5px rgb(194, 208, 232);  
+}
+.menu{
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 45px;
+  text-align: left;
+  padding-left: 30px;
+  color: white;
+}
+.menu ul li {
+  display: block;
+}
+.contact{
+  margin-top:45px;
+  text-align: left;
+  line-height: 10px;
+  font-size: 14px;
+}
+.forms{
+  margin-top: 40px;
+  font-size: 14px;
+  padding-left: 15px;
+  text-align: left;
+}
+#email{
+border: 1px solid white;
+background-color: rgba(0, 0, 0, .3);
+padding: 5px 10px;
+color: white;
+width: 100%;
+}
+#submit{
+  border: 1px solid white;
+  background-color: rgba(119, 78, 33, .6);
+  padding: 5px 10px;
+  color: white;
+  margin-top: 5px;
+  width: 100%;
+}
+.menu ul li a{
+  color: white;
+}
+#disclaimer{
+  background-color: #1c0101;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+  color: white;
+}
+#disclaimer p{
+  padding: 10px;
 }
