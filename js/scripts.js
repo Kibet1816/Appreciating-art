@@ -1,12 +1,18 @@
 $(document).ready(function(){
+<<<<<<< HEAD
   $(".test").hide()
   $("#btn").click(function(){
+=======
+  $(".test").hide();
+  $(".bt").click(function(){
+>>>>>>> 1bcbe6b8c0f1d7d973f2ab2bc4502c4de7b62a53
     $("#tru").slideToggle(550);
   });
   $("#gal").click(function(){
     $(".test").slideToggle(1250);
   });
 });
+<<<<<<< HEAD
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -26,3 +32,6 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+=======
+
+>>>>>>> 1bcbe6b8c0f1d7d973f2ab2bc4502c4de7b62a53
