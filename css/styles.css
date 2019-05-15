@@ -46,3 +46,200 @@ body{
   transform: scaleX(-1);
 }
 
+.navbar ul li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar ul li a{
+  color: white;
+}
+.navbar ul li:hover{
+  background-color: rgba(36, 40, 48, 0.5);
+  text-decoration: none;
+}
+.navbar ul{
+  margin-top: -50px;
+  padding-right: 17px;
+  margin-left: 50%;
+  text-decoration: none;
+}
+.navbar{
+  font-family: 'Crimson Text', serif;
+  font-size: 17px;
+  background-color: silver;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 5px rgb(194, 208, 232);
+}
+.navbar img{
+  margin-top: -6px;
+}
+.home{
+  margin-top: -27vh;
+  height: 120vh;
+  background-image: url("../images/beach-blurred-background-creative-2228183.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#title{
+  margin-top: 24%;
+  color: white;
+  width: 40vw;
+  margin-left: 25%;
+  border: 3px solid white;
+  margin-right: 45%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#child1{
+  padding-top: 40px;
+  padding-left: -5px;
+  font-family: 'Crimson Text', serif;
+  padding-bottom: 5px;
+}
+#title p{
+  padding-bottom: 10px;
+}
+.home img{
+  float: left;
+  margin-top: 14.6%;
+  margin-left: 19%;
+  z-index: -4200;
+}
+#mouse{
+  margin-top: -5%;
+}
+.home h1{
+  font-family: 'Shojumaru', cursive;
+}
+body{
+  text-align: center;
+  scroll-behavior: smooth;
+}
+#footer{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Crimson Text', serif;
+  padding-left: 80px;
+  background-color: #070000;
+  color: white;
+}
+#footer div{
+  width: 22%;
+  height: 18%;
+}
+.us{
+  font-size: 14px;
+  left:20px;
+  text-align: left;
+}
+.us #log,.us #cons{
+  margin-left: 70px;
+  text-shadow: 2px 2px 5px rgb(194, 208, 232);
+}
+.menu{
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 45px;
+  text-align: left;
+  padding-left: 30px;
+  color: white;
+}
+.menu ul li {
+  display: block;
+}
+.contact{
+  margin-top:45px;
+  text-align: left;
+  line-height: 10px;
+  font-size: 14px;
+}
+.forms{
+  margin-top: 40px;
+  font-size: 14px;
+  padding-left: 15px;
+  text-align: left;
+}
+#email{
+border: 1px solid white;
+background-color: rgba(0, 0, 0, .3);
+padding: 5px 10px;
+color: white;
+width: 100%;
+}
+#submit{
+  border: 1px solid white;
+  background-color: rgba(119, 78, 33, .6);
+  padding: 5px 10px;
+  color: white;
+  margin-top: 5px;
+  width: 100%;
+}
+.menu ul li a{
+  color: white;
+}
+#disclaimer{
+  background-color: #1c0101;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+  color: white;
+  bottom: -15%;
+}
+#disclaimer p{
+  padding: 20px;
+}
+.left-wall img{
+  float: left;
+  padding-bottom:  20px;
+  padding-right: 4px;
+}
+#sculpture img{
+  margin-left: -2%;
+}
+.scul1{
+  padding-top: 30px;
+}
+#sc9, #sc3{
+  float: left;
+  padding-left: 40px;
+}
+#sc12,#sc10{
+  float: right;
+}
+#sc13{
+  float: left;
+}
+#sc5{
+  position: relative;
+  top: 50px;
+}
+#sc8{
+  padding-top: 11%;
+  padding-bottom:12%;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 22%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.container {
+  padding: 2px 16px;
+}
+h1,h4,p{
+  text-align: center;
+}
+.test{
+  display: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.test img{
+  width: 25%;
+}
+#tru{
+  display: none;
+}
+
