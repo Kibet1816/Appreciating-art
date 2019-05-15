@@ -21,8 +21,7 @@ body{
   margin-left: 15px;
   background-color: aliceblue;
   box-shadow: 1px 1px 3px #000;
-  /* align-content: center; */
-  /* border-radius: 10px; */
+ 
 }
 .card .card-body img{
   width: 251px;
@@ -34,8 +33,6 @@ body{
   margin-left: 65px;
 }
 .card h5{
-  /* font-family: cursive; */
-  /* font-style: oblique; */
   margin-top: 4px;
 }
 .row{
