@@ -5,7 +5,6 @@
 }
 .navbar ul li a{
   color: white;
-  /* text-shadow: 2px 2px 5px rgb(194, 208, 232); */
 }
 .navbar ul li:hover{
   background-color: rgba(36, 40, 48, 0.5);
@@ -15,7 +14,6 @@
   margin-top: -50px;
   padding-right: 17px;
   margin-left: 50%;
-  /* position: fixed; */
   text-decoration: none;
 }
 .navbar{
@@ -89,7 +87,7 @@ body{
 }
 .us #log,.us #cons{
   margin-left: 70px;
-  text-shadow: 2px 2px 5px rgb(194, 208, 232);  
+  text-shadow: 2px 2px 5px rgb(194, 208, 232);
 }
 .menu{
   text-decoration: none;
@@ -137,7 +135,8 @@ width: 100%;
   font-family: 'Crimson Text', serif;
   font-size: 14px;
   color: white;
+  bottom: -15%;
 }
 #disclaimer p{
-  padding: 10px;
+  padding: 20px;
 }
