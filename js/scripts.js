@@ -7,3 +7,4 @@ $(document).ready(function(){
     $(".test").slideToggle(1250);
   });
 });
+
