@@ -16,7 +16,7 @@ body{
   text-shadow: 2px 1px 3px #000;
 }
 .card{
-  width: 240px;
+  width: 251px;
   height: 320px;
   margin-left: 15px;
   background-color: aliceblue;
@@ -25,8 +25,8 @@ body{
   /* border-radius: 10px; */
 }
 .card .card-body img{
-  width: 240px;
-  height: 220px;
+  width: 251px;
+  height: 256px;
   margin-left: -21px;
   margin-top: -21px;
 }
@@ -34,9 +34,15 @@ body{
   margin-left: 65px;
 }
 .card h5{
-  font-family: cursive;
-  font-style: oblique;
+  /* font-family: cursive; */
+  /* font-style: oblique; */
+  margin-top: 4px;
 }
 .row{
   margin-left: -53px;
 }
+.card .card-body img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
