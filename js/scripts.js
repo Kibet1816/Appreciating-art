@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $("#btn").click(function(){
+  $(".test").hide();
+  $(".bt").click(function(){
     $("#tru").slideToggle(550);
   });
   $("#gal").click(function(){
