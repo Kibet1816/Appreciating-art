@@ -172,9 +172,13 @@ body{
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 22%;
+  width: 21%;
   margin-left: 2%;
   margin-top: 2%;
+  margin-right: 2%;
+}
+.card img{
+  height: 200px;
 }
 .container {
   padding: 2px 16px;
@@ -187,6 +191,12 @@ h1,h4,p{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-family: 'Crimson Text', serif;
+
+}
+.container-fluid{
+  font-family: 'Crimson Text', serif;
+
 }
 .test img{
   width: 25%;
