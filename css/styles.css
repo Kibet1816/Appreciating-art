@@ -140,3 +140,32 @@ width: 100%;
 #disclaimer p{
   padding: 20px;
 }
+.left-wall img{
+  float: left;
+  padding-bottom:  20px;
+  padding-right: 4px;
+}
+#sculpture img{
+  margin-left: -2%;
+}
+.scul1{
+  padding-top: 30px;
+}
+#sc9, #sc3{
+  float: left;
+  padding-left: 40px;
+}
+#sc12,#sc10{
+  float: right;
+}
+#sc13{
+  float: left;
+}
+#sc5{
+  position: relative;
+  top: 50px;
+}
+#sc8{
+  padding-top: 11%;
+  padding-bottom:10%;
+}
