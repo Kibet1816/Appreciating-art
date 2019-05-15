@@ -15,7 +15,7 @@ body{
   font-style: oblique;
   text-shadow: 2px 1px 3px #000;
 }
-.card{
+.col-md-2 .card{
   width: 251px;
   height: 320px;
   margin-left: 15px;
@@ -23,7 +23,7 @@ body{
   box-shadow: 1px 1px 3px #000;
  
 }
-.card .card-body img{
+.col-md-2 .card .card-body img{
   width: 251px;
   height: 256px;
   margin-left: -21px;
@@ -32,13 +32,13 @@ body{
 .col-md-2{
   margin-left: 65px;
 }
-.card h5{
+.col-md-2 .card h5{
   margin-top: 4px;
 }
 .row{
   margin-left: -53px;
 }
-.card .card-body img:hover {
+.col-md-2 .card .card-body img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
