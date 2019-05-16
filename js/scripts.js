@@ -1,7 +1,5 @@
-$(document).ready(function(event){
-  // event.preventDefault();
+$(document).ready(function(){
   $("#btn").click(function(){
-    event.preventDefault();
     $("#tru").slideToggle(550);
   });
   $("#gal").click(function(){
