@@ -551,8 +551,17 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
-
+.container a{
+  color: black;
+  position: relative;
+  top: 10px;
+}
+.container p:hover{
+  color: black;
+  text-decoration: underline;
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -578,11 +587,14 @@ pre code {
 }
 
 .container-fluid {
+  height: 2%
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  font-family: 'Crimson Text', serif;
+  background-image: url("images/back.jpeg");
 }
 
 .row {
@@ -4560,7 +4572,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
 }
 
 .card > hr {
@@ -4648,7 +4660,7 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1.25rem;
+  /* padding: 1.25rem; */
 }
 
 .card-img {
@@ -4667,7 +4679,7 @@ input[type="button"].btn-block {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
-
+/*
 .card-deck {
   display: -ms-flexbox;
   display: flex;
@@ -4677,9 +4689,9 @@ input[type="button"].btn-block {
 
 .card-deck .card {
   margin-bottom: 15px;
-}
+} */
 
-@media (min-width: 576px) {
+/ @media (min-width: 576px) {
   .card-deck {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -4707,7 +4719,7 @@ input[type="button"].btn-block {
 }
 
 .card-group > .card {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 576px) {
@@ -4720,7 +4732,7 @@ input[type="button"].btn-block {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  .card-group > .card + .card {
+   .card-group > .card + .card {
     margin-left: 0;
     border-left: 0;
   }
@@ -4750,11 +4762,11 @@ input[type="button"].btn-block {
   }
 }
 
-.card-columns .card {
-  margin-bottom: 0.75rem;
+ .card-columns .card {
+  margin-bottom: 0.45rem;
 }
 
-@media (min-width: 576px) {
+/@media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -4769,7 +4781,7 @@ input[type="button"].btn-block {
     display: inline-block;
     width: 100%;
   }
-}
+} */
 
 .accordion > .card {
   overflow: hidden;
