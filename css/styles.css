@@ -254,10 +254,11 @@ body{
   .tru1 p, .tru2 p, .tru3 p, .tru4 p{
     display: none;
   }
-  #button2, #button1{
+  #button1{
     padding: 10px;
     text-align: center;
-    margin-left: 545px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .graphics{
     background-color: white;
@@ -281,7 +282,7 @@ body{
   .container {
     padding: 2px 16px;
   }
-  .graphic-Design, .flexible{
+  .graphic-Design{
     display: flex;
     flex-wrap: wrap;
     position: relative;
