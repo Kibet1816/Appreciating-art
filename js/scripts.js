@@ -15,10 +15,10 @@ $(document).ready(function(){
   $("#gal").click(function(){
     $(".test").slideToggle(1250);
   });
-    setTimeout(function(){
-      $("body,html").removeClass("no-scroll")
-      $(".loader-ctn").fadeOut();
-    },4000);
+    // setTimeout(function(){
+    //   $("body,html").removeClass("no-scroll")
+    //   $(".loader-ctn").fadeOut();
+    // },300);
   });
   $("#gal2").click(function(){
     $(".more-graph").slideToggle();
