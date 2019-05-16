@@ -254,7 +254,7 @@ body{
   .tru1 p, .tru2 p, .tru3 p, .tru4 p{
     display: none;
   }
-  #button2{
+  #button2, #button1{
     padding: 10px;
     text-align: center;
     margin-left: 545px;
