@@ -18,3 +18,5 @@ $(document).ready(function(){
   $("#gal2").click(function(){
     $(".more-graph").slideToggle();
   });
+  });
+      
