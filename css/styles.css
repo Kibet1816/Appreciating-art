@@ -1,6 +1,4 @@
-.body{
-  background-color: darkgray;
-}
+/*
 .jumbotron{
   margin-top: 50px;
   background-image: url('../images/jumbotron.jpg');
@@ -21,7 +19,7 @@
   margin-left: 15px;
   background-color: aliceblue;
   box-shadow: 1px 1px 3px #000;
- 
+
 }
 .col-md-2 .card .card-body img{
   width: 251px;
@@ -41,8 +39,11 @@
 .col-md-2 .card .card-body img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+} */
+body{
+  text-align: center;
+  scroll-behavior: smooth;
 }
-
 .navbar ul li{
   display: inline-block;
   padding-left: 10px;
@@ -103,15 +104,12 @@
   margin-left: 19%;
   z-index: -4200;
 }
-#mouse{
-  margin-top: -5%;
+ #mouse{
+  margin-top: -4%;
+  padding-bottom: 50px;
 }
 .home h1{
   font-family: 'Shojumaru', cursive;
-}
-body{
-  text-align: center;
-  scroll-behavior: smooth;
 }
 #footer{
   display: flex;
@@ -186,11 +184,17 @@ body{
 }
 .left-wall img{
   float: left;
+  padding-top: -10px;
   padding-bottom:  20px;
   padding-right: 4px;
 }
 #sculpture img{
   margin-left: -2%;
+}
+#sculpture{
+  background-image: url("../images/back.jpeg");
+  padding-top: 20px;
+  top: 0px;
 }
 .scul1{
   padding-top: 30px;
@@ -208,19 +212,20 @@ body{
 #sc5{
   position: relative;
   top: 50px;
+  left: 75px;
 }
 #sc8{
   padding-top: 11%;
-  padding-bottom:12%;
+  padding-bottom:9%;
+  padding-left: 6%;
 }
-
 .view {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 21%;
   margin-left: 2%;
   margin-top: 2%;
-  margin-right: 2%;
+  margin-right: 2%; */
 }
 .view img{
   height: 200px;
@@ -228,7 +233,7 @@ body{
 .container {
   padding: 2px 16px;
 }
-h1,h4,p{
+ h1,h4,p{
   text-align: center;
 }
 .test{
@@ -239,14 +244,55 @@ h1,h4,p{
   font-family: 'Crimson Text', serif;
 
 }
-.container-fluid{
+.container-fluid div{
   font-family: 'Crimson Text', serif;
+  padding-bottom: 30px;
 
 }
 .test img{
   width: 25%;
 }
-#tru{
+.tru1 p, .tru2 p, .tru3 p, .tru4 p{
   display: none;
 }
+#button1{
+  padding: 10px;
+  text-align: center;
+}
+.graphics{
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  left: 7px;
+}
+.graph {
+  box-shadow: 0 0px 3px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 24%;
+  margin-bottom: 20px;
+  font-family: 'Crimson Text', serif;
+  left: 17%;
+  top: 30px;
+}
 
+.graph:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.graphic-Design{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.paint-font{
+  text-align: center;
+  font-family: 'Cantata One', serif;
+  color: #474b51;
+}
+.clickable1, .clickable2,.clickable3,.clickable4{
+  position: relative;
+  margin-bottom: 15px;
+}
