@@ -225,7 +225,7 @@ body{
     width: 21%;
     margin-left: 2%;
     margin-top: 2%;
-    margin-right: 2%; */
+    margin-right: 2%; 
   }
   .view img{
     height: 200px;
@@ -254,7 +254,7 @@ body{
   .tru1 p, .tru2 p, .tru3 p, .tru4 p{
     display: none;
   }
-  #button1{
+  #button2{
     padding: 10px;
     text-align: center;
     margin-left: 545px;
