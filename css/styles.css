@@ -240,13 +240,15 @@ body{
  h1,h4,p{
   text-align: center;
 }
-.test{
+.tester{
   display: none;
+  justify-content: space-between;
+}
+.test{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-family: 'Crimson Text', serif;
-
+  justify-content: space-between;
 }
 .container-fluid div{
   font-family: 'Crimson Text', serif;
