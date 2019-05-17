@@ -16,7 +16,41 @@ $(document).ready(function(){
     $(".test").slideToggle(1250);
   });
   $("#gal2").click(function(){
-    $(".more-graph").slideToggle();
+    $(".other-designs").slideToggle();
   });
+  $(".navbar ul li.sculpture").click(function(){
+    $("#getaways").hide();
+    $("#paintings").hide();
+    $("#graphic-Design").hide();
+    $("#sculpture").animate({
+      width:"show"
+    });
   });
-      
+  $(".navbar ul li.graphical").click(function(){
+    $("#sculpture").hide();
+    $("#getaways").hide();
+    $("#paintings").hide();
+    $("#graphic-Design").animate({
+      width:"show"
+    });
+  });
+  $(".navbar ul li.paints").click(function(){
+    $("#sculpture").hide();
+    $("#graphic-Design").hide();
+    $("#getaways").hide();
+    $("#paintings").animate({
+      width:"show"
+    });
+  });
+  $(".navbar ul li.visit-us").click(function(){
+    $("#paintings").hide();
+    $("#sculpture").hide();
+    $("#graphic-Design").hide();
+    $("#getaways").animate({
+      width:"show"
+    });
+  });
+  
+});
+
+
