@@ -191,6 +191,10 @@ body{
 #sculpture img{
   margin-left: -2%;
 }
+#sculpture h1{
+  font-family: 'Cantata One', serif;
+  color: #474b51;
+}
 #sculpture{
   background-image: url("../images/back.jpeg");
   padding-top: 20px;
@@ -236,17 +240,19 @@ body{
  h1,h4,p{
   text-align: center;
 }
-.test{
+.tester{
   display: none;
+  justify-content: space-between;
+}
+.test{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-family: 'Crimson Text', serif;
-
+  justify-content: space-between;
 }
 .container-fluid div{
   font-family: 'Crimson Text', serif;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 
 }
 .test img{
@@ -288,6 +294,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  margin-left: 40px;
 }
 .paint-font{
   text-align: center;
@@ -298,3 +305,7 @@ body{
   position: relative;
   margin-bottom: 15px;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0088af72d819b02f2c5ad78d54085856bdac3d2a

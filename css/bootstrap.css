@@ -76,6 +76,10 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+<<<<<<< HEAD
+  font-weight:bold;
+=======
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 }
 
 p {
@@ -551,6 +555,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+<<<<<<< HEAD
+}
+
+=======
   text-align: center;
 }
 .container a{
@@ -562,6 +570,7 @@ pre code {
   color: black;
   text-decoration: underline;
 }
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -587,14 +596,20 @@ pre code {
 }
 
 .container-fluid {
+<<<<<<< HEAD
+=======
   height: 2%
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+<<<<<<< HEAD
+=======
   font-family: 'Crimson Text', serif;
   background-image: url("images/back.jpeg");
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 }
 
 .row {
@@ -1902,27 +1917,47 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
+<<<<<<< HEAD
+  color: #fff;
+=======
   color: #6c757d;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
+<<<<<<< HEAD
+  color: #fff;
+=======
   color: #6c757d;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
+<<<<<<< HEAD
+  color: #fff;
+=======
   color: #6c757d;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
+<<<<<<< HEAD
+  color: #fff;
+=======
   color: #6c757d;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   opacity: 1;
 }
 
 .form-control::placeholder {
+<<<<<<< HEAD
+  color: #fff;
+=======
   color: #6c757d;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   opacity: 1;
 }
 
@@ -4572,7 +4607,11 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
+<<<<<<< HEAD
+  border-radius: 0.25rem;
+=======
   border-radius: 0.15rem;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 }
 
 .card > hr {
@@ -4660,7 +4699,11 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   left: 0;
+<<<<<<< HEAD
+  padding: 1.25rem;
+=======
   /* padding: 1.25rem; */
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 }
 
 .card-img {
@@ -4679,7 +4722,11 @@ input[type="button"].btn-block {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
+<<<<<<< HEAD
+
+=======
 /*
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 .card-deck {
   display: -ms-flexbox;
   display: flex;
@@ -4689,9 +4736,15 @@ input[type="button"].btn-block {
 
 .card-deck .card {
   margin-bottom: 15px;
+<<<<<<< HEAD
+}
+
+@media (min-width: 576px) {
+=======
 } */
 
 / @media (min-width: 576px) {
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   .card-deck {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -4719,7 +4772,11 @@ input[type="button"].btn-block {
 }
 
 .card-group > .card {
+<<<<<<< HEAD
+  margin-bottom: 15px;
+=======
   margin-bottom: 10px;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 }
 
 @media (min-width: 576px) {
@@ -4732,7 +4789,11 @@ input[type="button"].btn-block {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
+<<<<<<< HEAD
+  .card-group > .card + .card {
+=======
    .card-group > .card + .card {
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
     margin-left: 0;
     border-left: 0;
   }
@@ -4762,11 +4823,20 @@ input[type="button"].btn-block {
   }
 }
 
+<<<<<<< HEAD
+.card-columns .card {
+  
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 576px) {
+=======
  .card-columns .card {
   margin-bottom: 0.45rem;
 }
 
 /@media (min-width: 576px) {
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   .card-columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -4781,7 +4851,11 @@ input[type="button"].btn-block {
     display: inline-block;
     width: 100%;
   }
+<<<<<<< HEAD
+}
+=======
 } */
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
 
 .accordion > .card {
   overflow: hidden;
@@ -5097,7 +5171,11 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .jumbotron {
   padding: 2rem 1rem;
+<<<<<<< HEAD
+  margin-bottom: 2rem;
+=======
   margin-bottom:2em;
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
@@ -10047,4 +10125,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=bootstrap.css.map */
+=======
+/*# sourceMappingURL=bootstrap.css.map */
+>>>>>>> 82cc29b5faba03220ac1fced4491405f7a0eb4ca
