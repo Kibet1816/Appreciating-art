@@ -30,6 +30,7 @@ body{
   background-color: rgba(0, 0, 0, 0.3);
   text-shadow: 2px 2px 5px rgb(194, 208, 232);
   width: 100%;
+  z-index: 9999999;
 }
 .navbar img{
   margin-top: -6px;
@@ -282,6 +283,8 @@ body{
 #getaways{
   display: none;
   position: absolute;
+  width: 100%;
+  margin-top: 0;
 }
 .other-designs{
   display: none;
