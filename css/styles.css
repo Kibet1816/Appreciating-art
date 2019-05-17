@@ -63,11 +63,15 @@ body{
   text-decoration: none;
 }
 .navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
   font-family: 'Crimson Text', serif;
   font-size: 17px;
   background-color: silver;
   background-color: rgba(0, 0, 0, 0.3);
   text-shadow: 2px 2px 5px rgb(194, 208, 232);
+  width: 100%;
 }
 .navbar img{
   margin-top: -6px;
@@ -182,6 +186,9 @@ body{
 #disclaimer p{
   padding: 20px;
 }
+#paintings{
+  display: none;
+}
 .left-wall img{
   float: left;
   padding-top: -10px;
@@ -196,6 +203,7 @@ body{
   color: #474b51;
 }
 #sculpture{
+  display: none;
   background-image: url("../images/back.jpeg");
   padding-top: 20px;
   top: 0px;
@@ -290,7 +298,13 @@ body{
 .container {
   padding: 2px 16px;
 }
-.graphic-Design{
+#graphic-Design{
+  display: none;
+}
+.edit{
+  height: 51%;
+}
+.designs, .more-graph{
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -304,8 +318,13 @@ body{
 .clickable1, .clickable2,.clickable3,.clickable4{
   position: relative;
   margin-bottom: 15px;
+}.carousel-item{
+  background-attachment: fixed;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 0088af72d819b02f2c5ad78d54085856bdac3d2a
+#getaways{
+  display: none;
+  position: absolute;
+}
+.other-designs{
+  display: none;
+}
