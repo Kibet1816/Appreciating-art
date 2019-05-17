@@ -18,7 +18,7 @@ $(document).ready(function(){
   $("#gal2").click(function(){
     $(".other-designs").slideToggle();
   });
-  $(".navbar ul li.sculpture").click(function(){
+  $(".sculpture").click(function(){
     $("#getaways").hide();
     $("#paintings").hide();
     $("#graphic-Design").hide();
@@ -26,7 +26,7 @@ $(document).ready(function(){
       width:"show"
     });
   });
-  $(".navbar ul li.graphical").click(function(){
+  $(".graphical").click(function(){
     $("#sculpture").hide();
     $("#getaways").hide();
     $("#paintings").hide();
@@ -34,7 +34,7 @@ $(document).ready(function(){
       width:"show"
     });
   });
-  $(".navbar ul li.paints").click(function(){
+  $(".paints").click(function(){
     $("#sculpture").hide();
     $("#graphic-Design").hide();
     $("#getaways").hide();
@@ -42,7 +42,7 @@ $(document).ready(function(){
       width:"show"
     });
   });
-  $(".navbar ul li.visit-us").click(function(){
+  $(".visit-us").click(function(){
     $("#paintings").hide();
     $("#sculpture").hide();
     $("#graphic-Design").hide();
